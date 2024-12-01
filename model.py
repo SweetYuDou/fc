@@ -169,7 +169,7 @@ class RerankingModel():
 
 class RankingModel():        
     def __init__(self) -> None:
-        os.environ['OPENAI_API_KEY'] = "sk-mQs4S4qxCL9fpWuLvT53jd8yMUJfM1MtS62GxaFMqrHUf1hB"
+        os.environ['OPENAI_API_KEY'] = "sk-xxxxxxxxxx"
         os.environ['OPENAI_API_BASE'] = "https://api.openai-proxy.org/v1"
         
     def get_prompt(self, x, y, k=3):
